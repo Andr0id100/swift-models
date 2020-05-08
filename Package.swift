@@ -128,6 +128,11 @@ let package = Package(
             name: "pix2pix",
             dependencies: ["Batcher", .product(name: "ArgumentParser", package: "swift-argument-parser"), "ModelSupport", "Datasets"],
             path: "pix2pix"
+        ),
+        .target(
+            name: "Testing",
+            dependencies: ["Datasets"],
+            path: "Testing"
         )
     ]
 )
