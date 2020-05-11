@@ -1,6 +1,6 @@
 import TensorFlow
 import XCTest
-import Datasests
+import Datasets
 
 final class ImagenetteTests: XCTestCase {
     func testCreateOxfordIIITPets() {
@@ -21,6 +21,6 @@ final class ImagenetteTests: XCTestCase {
 
 extension OxfordIIITPetsTests {
     static var allTests = [
-        ("testCreateOxfordIIITPets", testCreateOxfordIIITPets,)
+        ("testCreateOxfordIIITPets", testCreateOxfordIIITPets),
     ]
 }
