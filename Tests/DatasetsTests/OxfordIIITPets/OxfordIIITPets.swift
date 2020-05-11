@@ -2,7 +2,7 @@ import TensorFlow
 import XCTest
 import Datasets
 
-final class OxfordIIITPets: XCTestCase {
+final class OxfordIIITPetsTests: XCTestCase {
     func testCreateOxfordIIITPets() {
         let dataset = OxfordIIITPets(batchSize: 64)
 
